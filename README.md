@@ -1,73 +1,135 @@
-# Welcome to your Lovable project
 
-## Project info
+# Lucid Blog Sphere 🌐✍️
 
-**URL**: https://lovable.dev/projects/3434e664-69cf-4013-aea0-f798c5b8bde2
+## Project Overview
 
-## How can I edit this code?
+Lucid Blog Sphere is a modern, responsive blog application built with React, TypeScript, and Tailwind CSS. It provides a sleek and intuitive platform for users to create, read, and manage blog posts.
 
-There are several ways of editing your application.
+### Key Features
 
-**Use Lovable**
+- 🔐 User Authentication
+- 📝 Blog Creation & Management
+- 🌍 Public Blog Listing
+- 📱 Fully Responsive Design
+- 🎨 Modern UI with Shadcn/UI Components
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3434e664-69cf-4013-aea0-f798c5b8bde2) and start prompting.
+## Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+### Frontend
+- React (v18.3.1)
+- TypeScript
+- Tailwind CSS
+- React Router
+- Shadcn/UI Components
+- Tanstack React Query
 
-**Use your preferred IDE**
+### Development Tools
+- Vite
+- ESLint
+- Bun (Package Manager)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Project Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```
+src/
+├── components/
+│   ├── ui/           # Shadcn/UI reusable components
+│   └── BlogCard.tsx  # Blog listing component
+├── context/
+│   ├── AuthContext.tsx
+│   └── BlogContext.tsx
+├── hooks/            # Custom React hooks
+├── pages/            # Application pages
+│   ├── Index.tsx
+│   ├── Login.tsx
+│   └── Register.tsx
+└── App.tsx
+```
 
-Follow these steps:
+## Color Palette
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Primary: #9B87F5 (Soft Purple)
+- Secondary: #7E69AB (Deep Purple)
+- Accent: #D6BCFA (Light Purple)
+- Neutral: #8E9196 (Cool Gray)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Prerequisites
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- Node.js (v18+)
+- Bun or npm
+- Git
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone <your-repo-url>
+```
+
+2. Install dependencies
+```bash
+bun install
+# or
+npm install
+```
+
+3. Start the development server
+```bash
+bun dev
+# or
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Environment Setup
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Create a `.env` file in the project root with the following variables:
+```env
+VITE_APP_NAME=LucidBlogSphere
+VITE_API_URL=https://your-api-endpoint.com
+```
 
-**Use GitHub Codespaces**
+## Available Scripts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- `bun dev`: Start development server
+- `bun build`: Create production build
+- `bun lint`: Run ESLint
+- `bun preview`: Preview production build
 
-## What technologies are used for this project?
+## Deployment
 
-This project is built with:
+### Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Netlify
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start)
 
-## How can I deploy this project?
+## Future Roadmap
 
-Simply open [Lovable](https://lovable.dev/projects/3434e664-69cf-4013-aea0-f798c5b8bde2) and click on Share -> Publish.
+- [ ] Implement advanced search functionality
+- [ ] Add comment system
+- [ ] Create user profiles
+- [ ] Integrate with Supabase for backend
 
-## Can I connect a custom domain to my Lovable project?
+## Contributing
 
-Yes, you can!
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Your Name - [Your Email]
+
+Project Link: [https://github.com/yourusername/lucid-blog-sphere](https://github.com/yourusername/lucid-blog-sphere)
+
+---
+
+**Powered by Lovable 🚀**
