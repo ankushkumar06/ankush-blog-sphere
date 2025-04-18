@@ -163,7 +163,6 @@ Project Link: [https://github.com/yourusername/lucid-blog-sphere](https://github
 
 ---
 
-**Powered by Lovable 🚀**
 
 ## Netlify Deployment
 
