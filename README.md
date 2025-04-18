@@ -107,10 +107,42 @@ VITE_API_URL=https://your-api-endpoint.com
 
 ## Future Roadmap
 
-- [ ] Implement advanced search functionality
-- [ ] Add comment system
-- [ ] Create user profiles
+### Features to Implement
+- [x] Basic blog creation and listing
+- [ ] Advanced search functionality with filters
+  - Full-text search across blog titles and content
+  - Filter blogs by tags, categories, or date range
+- [ ] Implement robust comment system
+  - Allow users to comment on blog posts
+  - Nested comment threads
+  - Like/react to comments
+- [ ] Create comprehensive user profiles
+  - Profile customization
+  - User activity tracking
+  - Profile picture upload
 - [ ] Integrate with Supabase for backend
+  - Real-time database synchronization
+  - User authentication with multiple providers
+  - Serverless functions for additional backend logic
+
+### Performance and UX Improvements
+- [ ] Implement lazy loading for blog posts
+- [ ] Add offline support with service workers
+- [ ] Optimize images and implement responsive image loading
+- [ ] Create dark/light mode toggle
+
+### Advanced Features
+- [ ] Blog post rich text editing
+- [ ] Support for markdown in blog posts
+- [ ] Add SEO metadata for blog posts
+- [ ] Implement blog post scheduling
+- [ ] Create a newsletter subscription feature
+
+### Security Enhancements
+- [ ] Implement rate limiting
+- [ ] Add CSRF protection
+- [ ] Enhance input validation
+- [ ] Implement role-based access control
 
 ## Contributing
 
