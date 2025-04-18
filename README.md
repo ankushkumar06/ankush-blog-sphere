@@ -164,3 +164,23 @@ Project Link: [https://github.com/yourusername/lucid-blog-sphere](https://github
 ---
 
 **Powered by Lovable 🚀**
+
+## Netlify Deployment
+
+### Quick Deploy
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/your-github-username/ankush-blog-sphere)
+
+### Manual Deployment Steps
+1. Push your code to a GitHub repository
+2. Sign up or log in to Netlify
+3. Click "New site from Git"
+4. Choose GitHub and select your repository
+5. Set build commands:
+   - Build Command: `npm run build`
+   - Publish Directory: `dist`
+6. Deploy and enjoy your site!
+
+### Environment Variables
+Set these in Netlify's site settings:
+- `VITE_API_URL`: Your backend API endpoint
+- `VITE_APP_NAME`: Your application name
