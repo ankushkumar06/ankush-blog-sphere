@@ -20,7 +20,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div>
           <Link to="/" className="font-playfair text-2xl font-bold">
-            Lucid Blog
+            Ankush Blog
           </Link>
         </div>
         

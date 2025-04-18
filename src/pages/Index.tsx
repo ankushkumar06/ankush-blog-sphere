@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { BlogPost, useBlog } from "@/context/BlogContext";
 import Layout from "@/components/Layout";
@@ -14,23 +13,19 @@ const Index = () => {
   const [totalPages, setTotalPages] = useState(1);
 
   useEffect(() => {
-    // Calculate pagination
     const totalItems = blogs.length;
     const calculatedTotalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
     setTotalPages(calculatedTotalPages || 1);
 
-    // Ensure current page is valid
     if (currentPage > calculatedTotalPages) {
       setCurrentPage(calculatedTotalPages);
     }
 
-    // Get blogs for current page
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     setDisplayedBlogs(blogs.slice(startIndex, endIndex));
   }, [blogs, currentPage]);
 
-  // Handle page change
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -38,11 +33,10 @@ const Index = () => {
 
   return (
     <Layout>
-      {/* Hero Section */}
       <section className="bg-accent py-16 md:py-24">
         <div className="container mx-auto px-4 text-center">
           <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Lucid Blog
+            Ankush Blog
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto text-gray-700 mb-8">
             Discover insightful articles, tutorials, and stories from our writers.
@@ -51,7 +45,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Blog Posts Grid */}
       <section className="container mx-auto px-4 py-12">
         <h2 className="font-playfair text-3xl font-semibold mb-8">Latest Posts</h2>
 

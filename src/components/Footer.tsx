@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <Link to="/" className="font-playfair text-xl font-bold">
-              Lucid Blog
+              Ankush Blog
             </Link>
             <p className="mt-2 text-gray-600">
               Share your thoughts and ideas with the world through our platform.
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t pt-4 mt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} Lucid Blog. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ankush Blog. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -1,9 +1,8 @@
-
-# Lucid Blog Sphere 🌐✍️
+# Ankush Blog Sphere 🌐✍️
 
 ## Project Overview
 
-Lucid Blog Sphere is a modern, responsive blog application built with React, TypeScript, and Tailwind CSS. It provides a sleek and intuitive platform for users to create, read, and manage blog posts.
+Ankush Blog Sphere is a modern, responsive blog application built with React, TypeScript, and Tailwind CSS. It provides a sleek and intuitive platform for users to create, read, and manage blog posts.
 
 ### Key Features
 
